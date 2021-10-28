@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Inside Table</title>
+        <style>
+           h1 {background-color:rgb(198, 241, 98); border: solid black 2px ; width: 95%; color:black} 
+        </style>
+        <style>
+        body { 
+            border: 2px solid black;
+        border-collapse: collapse;}
+        </style>
+    </head>
+    <body>
+        <h1>Personal Details</h1>
+        <table>
+            <tr>
+                <th><h2>Personal<hr></h2></th>
+            </tr>
+       <form>
+            <tr><td>Title </td>
+                <td><select name="title">
+                    <option value="mr">mr</option>
+                    <option value="mrs">mrs</option></select>
+                 </select></td>
+                </tr>
+                 <tr><td>first name</td>
+                 <td> <input type="text" name="firstname" required> </td>
+                 </tr>
+                 <tr><td>last name </td> 
+                 <td><input type="text" name="lastname"></td>
+                </tr>
+                 <tr><td> email </td>
+                 <td><input type="email"></td>
+                </tr>
+                 <tr><td>language </td>
+                  <td><select name= "title">
+                    <option value ="english">english</option> 
+                    <option value ="marathi">marathi</option>
+                    <option value ="hindi">hindi</option>
+                </select></td>
+               </tr>
+           </table> <hr> <br>
+           <table>
+           <tr>
+               <th><h2 style="float: left;">Contact <hr></h2></th>
+            </tr> 
+               <tr>
+                   <td>phone</td>
+                    <td><input type="number" maxlength="10" minlength="10"></td>
+               </tr>
+               <tr>
+                   <td>Fax</td>
+                   <td><input type="text"></td>
+               </tr>
+               <tr>
+                   <td>cell phone</td>
+                   <td><input type="text"></td>
+               </tr>
+               <tr>
+                   <td>skype</td>
+                   <td><input type="text"></td>
+               </tr>
+               <tr>
+                   <td>alternate email</td>
+                   <td><input type="text"></td>
+               </tr>
+               <tr>
+                   <td>custom id</td>
+                   <td><input type="text"></td>
+               </tr>
+           </table><hr>  <br>
+           <table>
+            <tr>
+            <th><h2 style="text-align: left;">Settings<hr></h2></th>
+             </tr> 
+               <tr>
+                   <td><input type="checkbox"> show 'getting started'screen on log-in</td>
+               </tr>
+               <tr>
+                    <td><input type="checkbox"> keep me logged in</td>
+               </tr>
+           </table> <hr> <br>
+           <table>
+            <tr>
+                <th colspan="2" ><h2 style="text-align: left;" >Set New Password <hr></h2></th>
+             </tr>
+               <tr> 
+                   <td>old password</td>
+                   <td><input type="text"></td>
+               </tr>
+               <tr>
+                   <td>new password</td>
+                   <td><input type="text"></td>
+               </tr>
+               <tr>
+                   <td>repeat password</td>
+                   <td><input type="text"></td>
+               </tr>
+            </table> <hr>
+            <table>
+                <tr>
+                    <th><h2>Address<hr></h2></th>
+                 </tr>
+                <tr>
+                    <td>Street</td>
+                    <td><input type="text"></td>
+                    </BR><td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>city</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                <td><select name="title">
+                        <option value="maharastra">maharastra</option>
+                        <option value="panjab">panjab</option>
+                        <option value="gujrat">gujrat</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Zip Code</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><select name="title">
+                        <option value="india">india</option>
+                        <option value="uk">uk</option>
+                        <option value="us">us</option>
+                        <option value="uae">uae</option>
+                    </select></td>
+                </tr>
+            </table><br>
+            <table>
+               <tr>
+                   <input style="background-color: hotpink;" type="submit" value="Apply Changes">
+                   <input style="background-color: hotpink;" type="reset" value="cancle">
+               </tr> 
+
+            </table>
+    </form>
+    </body>
+</html>
